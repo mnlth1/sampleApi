@@ -1,0 +1,25 @@
+{
+  "name": "sampleapi",
+  "version": "1.0.0",
+  "description": "Orders API",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app/app.js",
+    "create-db": "cd ./app/db && node createOrderTable.js && cd ../..",
+    "load-data": "cd ./app/db && node loadOrderData.js && cd ../.."
+  },
+  "dependencies": {
+    "aws-sdk": "^2.176.0",
+    "body-parser": "~1.18.2",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "morgan": "~1.9.0",
+    "util": "^0.10.3",
+    "uuid": "^3.2.1",
+    "dynamoose": "0.8.7"
+  },
+  "devDependencies": {},
+  "author": "Lalitha M",
+  "license": "ISC"
+}

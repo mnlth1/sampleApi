@@ -1,0 +1,14 @@
+[
+    { "OrderID": "Order-1",
+      "ItemType" : "Electronics",
+      "ItemName" : "Mobile",
+      "manufacturer" : "Apple",
+      "amount" : 1500
+    },
+    { "OrderID": "Order-2",
+        "ItemType" : "Toys",
+        "ItemName" : "LegoBrick",
+        "manufacturer" : "Lego",
+        "amount" : 10
+    }
+  ]
